@@ -1,4 +1,5 @@
 $ErrorActionPreference = 'Stop'
+$ProgressPreference = 'SilentlyContinue'
 $Project = Split-Path $PSScriptRoot -Parent
 Set-Location $Project
 try {
@@ -16,11 +17,11 @@ try {
             New-Item -ItemType Directory -Force $Runtime | Out-Null
             $Architecture = if ($env:PROCESSOR_ARCHITECTURE -eq 'ARM64' -or $env:PROCESSOR_ARCHITEW6432 -eq 'ARM64') {'arm64'} else {'x64'}
             $Base = 'https://nodejs.org/dist/latest-v22.x/'
-            $Sums = (Invoke-WebRequest ($Base + 'SHASUMS256.txt') -UseBasicParsing).Content
+            $Sums = (Invoke-WebRequest ($Base + 'SHASUMS256.txt') -UseBasicParsing -TimeoutSec 120).Content
             $Match = [regex]::Match($Sums, "(?m)^([a-f0-9]{64})\s+(node-v22\.[0-9]+\.[0-9]+-win-$Architecture\.zip)\r?$")
             if (!$Match.Success) { throw 'Official Node.js package not found in checksum list' }
             $Archive = Join-Path $Runtime $Match.Groups[2].Value
-            Invoke-WebRequest ($Base + $Match.Groups[2].Value) -OutFile $Archive -UseBasicParsing
+            Invoke-WebRequest ($Base + $Match.Groups[2].Value) -OutFile $Archive -UseBasicParsing -TimeoutSec 120
             if ((Get-FileHash $Archive -Algorithm SHA256).Hash.ToLower() -ne $Match.Groups[1].Value) { throw 'Node.js checksum mismatch' }
             $Unpacked = Join-Path $Runtime 'unpacked'
             Expand-Archive $Archive -DestinationPath $Unpacked -Force
