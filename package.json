@@ -1,0 +1,17 @@
+{
+  "name": "bg3-dice-check",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser port of the Baldur's Gate 3 single D20 check with original assets and audio",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/rules.mjs",
+    "check": "node --check app.js && node --check native-engine.js && node --check server.mjs && node --check launch.mjs",
+    "test:native": "node tests/native.mjs",
+    "launch": "node launch.mjs"
+  }
+}

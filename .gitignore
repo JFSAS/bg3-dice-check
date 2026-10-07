@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+*.log
+coverage/
+.local-assets/
+.venv/
+__pycache__/
+.local-runtime/

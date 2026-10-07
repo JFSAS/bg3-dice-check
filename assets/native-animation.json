@@ -1,0 +1,3248 @@
+{
+  "success": {
+    "scene": {
+      "kind": "Canvas",
+      "name": "HolderCanvas",
+      "a": {
+        "Name": "HolderCanvas",
+        "Width": 3840.0,
+        "Height": 2160.0,
+        "HorizontalAlignment": "Center"
+      },
+      "transforms": [
+        {
+          "kind": "TranslateTransform",
+          "values": {
+            "Y": -80.0
+          }
+        }
+      ],
+      "children": [
+        {
+          "kind": "Canvas",
+          "name": "DieShadowHolder",
+          "a": {
+            "Name": "DieShadowHolder"
+          },
+          "transforms": [
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1910.72,
+                "Y": 980.06
+              }
+            }
+          ],
+          "children": [
+            {
+              "kind": "Canvas",
+              "name": null,
+              "a": {},
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 7.5,
+                    "Y": -4.5
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "kind": "Path",
+                  "name": null,
+                  "a": {
+                    "Data": "F1M0,-168.5a168.5,168.5,0,0,0,0,337a168.5,168.5,0,0,0,0,-337Z",
+                    "Opacity": "1",
+                    "Style": "{StaticResource DieShadowStyle}"
+                  },
+                  "transforms": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "Canvas",
+          "name": "D20ExplHolder",
+          "a": {
+            "Name": "D20ExplHolder",
+            "RenderTransformOrigin": "0.5,0.5",
+            "Visibility": "Hidden"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "CenterX": 1920.0,
+                "CenterY": 800.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 16.0,
+                "Y": 125.0
+              }
+            }
+          ],
+          "children": [
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl5",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl5",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1759.0,
+                    "Y": 704.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl6",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl6",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": 90.0,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1905.0,
+                    "Y": 704.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl7",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl7",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": 180.0,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1905.0,
+                    "Y": 850.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl8",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl8",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": 270.0,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1759.0,
+                    "Y": 850.0
+                  }
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "Canvas",
+          "name": "DiceHolder",
+          "a": {
+            "Name": "DiceHolder"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "CenterX": 222.0,
+                "CenterY": 222.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1696.0,
+                "Y": 754.0
+              }
+            }
+          ],
+          "children": [
+            {
+              "kind": "Canvas",
+              "name": "Shadow",
+              "a": {
+                "Name": "Shadow",
+                "Visibility": "Hidden"
+              },
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1920.0,
+                    "Y": 975.0
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "kind": "Path",
+                  "name": null,
+                  "a": {
+                    "Data": "F1M0,-168.5a168.5,168.5,0,0,0,0,337a168.5,168.5,0,0,0,0,-337Z",
+                    "Opacity": "1",
+                    "Style": "{StaticResource DieShadowStyle}"
+                  },
+                  "transforms": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "kind": "ContentControl",
+              "name": "Dice",
+              "a": {
+                "Name": "Dice",
+                "RenderTransformOrigin": "0.5,0.5",
+                "Template": "{StaticResource DiceTemplate}",
+                "Content": "{Binding ResultNumber}",
+                "Tag": "{Binding FinalResult}"
+              },
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 94.0,
+                    "Y": 94.0
+                  }
+                },
+                {
+                  "kind": "ScaleTransform",
+                  "values": {}
+                },
+                {
+                  "kind": "RotateTransform",
+                  "values": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "Shine",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "Width": "256",
+                "Height": "256",
+                "ClipSize": "256,256",
+                "Margin": "0",
+                "LastFrame": "28",
+                "RepeatBehavior": "1x",
+                "RenderTransformOrigin": "0.5,0.5",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Shine.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Name": "Shine",
+                "Style": "{StaticResource ShineStyle}",
+                "Visibility": "Hidden"
+              },
+              "transforms": [
+                {
+                  "kind": "ScaleTransform",
+                  "values": {
+                    "ScaleX": 1.0,
+                    "ScaleY": 1.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 94.0,
+                    "Y": 94.0
+                  }
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "d20Expl1",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "178,184",
+            "Margin": "-20",
+            "RepeatBehavior": "Forever",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "d20Expl1",
+            "Style": "{StaticResource d20ExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": -50.26,
+                "CenterX": 89.0,
+                "CenterY": 92.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1811.0,
+                "Y": 748.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "d20Expl2",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "178,184",
+            "Margin": "-20",
+            "RepeatBehavior": "Forever",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "d20Expl2",
+            "Style": "{StaticResource d20ExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleY": -1.0,
+                "CenterX": 89.0,
+                "CenterY": 92.0
+              }
+            },
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": 219.89,
+                "CenterX": 89.0,
+                "CenterY": 92.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1833.0,
+                "Y": 768.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "d20Expl3",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "178,184",
+            "Margin": "-20",
+            "RepeatBehavior": "Forever",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "d20Expl3",
+            "Style": "{StaticResource d20ExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.2,
+                "ScaleY": 1.2,
+                "CenterX": 89.0,
+                "CenterY": 92.0
+              }
+            },
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": 22.77,
+                "CenterX": 89.0,
+                "CenterY": 92.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1970.0,
+                "Y": 838.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "d20Expl4",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "178,184",
+            "Margin": "-20",
+            "RepeatBehavior": "Forever",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "d20Expl4",
+            "Style": "{StaticResource d20ExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.4,
+                "ScaleY": 1.4,
+                "CenterX": 89.0,
+                "CenterY": 92.0
+              }
+            },
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": -78.48,
+                "CenterX": 89.0,
+                "CenterY": 92.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1734.0,
+                "Y": 756.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "TrailVfx1",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "232,520",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/trail.png",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "TrailVfx1",
+            "Style": "{StaticResource trailVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.2,
+                "ScaleY": -1.2,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": -90.0,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 2110.0,
+                "Y": 890.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "TrailVfx2",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "232,520",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/trail.png",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "TrailVfx2",
+            "Style": "{StaticResource trailVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.2,
+                "ScaleY": 1.2,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": -90.0,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1498.0,
+                "Y": 890.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "TrailVfx3",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "232,520",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/trail.png",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "TrailVfx3",
+            "Style": "{StaticResource trailVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.2,
+                "ScaleY": -1.2,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": -270.0,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1524.0,
+                "Y": 910.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "TrailVfx4",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "232,520",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/trail.png",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "TrailVfx4",
+            "Style": "{StaticResource trailVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.2,
+                "ScaleY": 1.2,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": -270.0,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 2078.0,
+                "Y": 910.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "Border",
+          "name": "ResultTextSuccess",
+          "a": {
+            "Name": "ResultTextSuccess",
+            "Canvas.Top": 1104.0,
+            "Width": 3840.0
+          },
+          "transforms": [],
+          "children": [
+            {
+              "kind": "Viewbox",
+              "name": null,
+              "a": {
+                "HorizontalAlignment": "Center",
+                "Width": "{DynamicResource ResultTextViewBoxWidth}",
+                "Stretch": "Uniform",
+                "StretchDirection": "DownOnly"
+              },
+              "transforms": [],
+              "children": [
+                {
+                  "kind": "TextBlock",
+                  "name": "textBlockResult",
+                  "a": {
+                    "Name": "textBlockResult",
+                    "TextAlignment": "Center",
+                    "HorizontalAlignment": "Center",
+                    "VerticalAlignment": "Top",
+                    "Opacity": 0.0,
+                    "Padding": "0,16",
+                    "TextBlockFormatter.SourceText": "{Binding Source='hc8aa88d2g41f9g49d5ga0fbgfd343e4c5353', ConverterParameter=ToUpper, Converter={StaticResource TranslatedStringConverter}}",
+                    "FontSize": "{StaticResource ScaledHumongousFontSize}",
+                    "Foreground": "{StaticResource LS_extraspecialTxtColor}",
+                    "Background": "{x:Null}",
+                    "Text.Stroke": "{StaticResource LS_extraspecialTxtColor}",
+                    "Text.StrokeThickness": 1.5,
+                    "TextWrapping": "WrapWithOverflow",
+                    "LineStackingStrategy": "BlockLineHeight",
+                    "LineHeight": "{StaticResource ScaledHumongousFontSize}",
+                    "Visibility": "Hidden"
+                  },
+                  "transforms": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "PopExplVfx1",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "216,240",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+            "VerticalAlignment": "Center",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "PopExplVfx1",
+            "Style": "{StaticResource popExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1804.0,
+                "Y": 982.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "PopExplVfx2",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "216,240",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+            "VerticalAlignment": "Center",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "PopExplVfx2",
+            "Style": "{StaticResource popExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1790.0,
+                "Y": 560.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "PopExplVfx3",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "216,240",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+            "VerticalAlignment": "Center",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "PopExplVfx3",
+            "Style": "{StaticResource popExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.5,
+                "ScaleY": 1.5,
+                "CenterX": 108.0,
+                "CenterY": 120.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1790.0,
+                "Y": 800.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "PopExplVfx4",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "216,240",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+            "VerticalAlignment": "Center",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "PopExplVfx4",
+            "Style": "{StaticResource popExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.5,
+                "ScaleY": 1.5,
+                "CenterX": 108.0,
+                "CenterY": 120.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1794.0,
+                "Y": 796.0
+              }
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    "boards": {
+      "ResultSuccessAnimation": {
+        "duration": 2.13,
+        "begin": 0.0,
+        "tracks": [
+          {
+            "target": "D20ExplHolder",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.2,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.63,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "D20ExplHolder",
+            "property": "RenderTransform.Children[0].ScaleX",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.48,
+                "v": 1.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.57,
+                "v": 1.7,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.167,-0.325 0.833,0.833",
+                "ease": null
+              },
+              {
+                "t": 1.63,
+                "v": 1.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "D20ExplHolder",
+            "property": "RenderTransform.Children[0].ScaleY",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.48,
+                "v": 1.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.57,
+                "v": 1.7,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.167,-0.325 0.833,0.833",
+                "ease": null
+              },
+              {
+                "t": 1.63,
+                "v": 1.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl5",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.2,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.37,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl6",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.23,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.4,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl7",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.27,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.43,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl8",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.3,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.47,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "DiceHolder",
+            "property": "RenderTransform.Children[0].ScaleX",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.18,
+                "v": 1.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.28,
+                "v": 1.3,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.32,
+                "v": 1.3,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.33,
+                "v": 1.8,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.63,
+                "v": 1.6,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.833,0.833",
+                "ease": null
+              },
+              {
+                "t": 0.85,
+                "v": 1.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              },
+              {
+                "t": 0.92,
+                "v": 1.1,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              },
+              {
+                "t": 0.98,
+                "v": 1.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "DiceHolder",
+            "property": "RenderTransform.Children[0].ScaleY",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.18,
+                "v": 1.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.28,
+                "v": 1.3,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.32,
+                "v": 1.3,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.33,
+                "v": 1.8,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.63,
+                "v": 1.6,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.833,0.833",
+                "ease": null
+              },
+              {
+                "t": 0.85,
+                "v": 1.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              },
+              {
+                "t": 0.92,
+                "v": 1.1,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              },
+              {
+                "t": 0.98,
+                "v": 1.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "Dice",
+            "property": "Tag",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.0,
+                "v": "",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.25,
+                "v": "GlowResult",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "Shine",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.12,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.32,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl1",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.92,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.08,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl2",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.9,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.07,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl3",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.25,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.42,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl4",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.35,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.52,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "TrailVfx1",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.92,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.92,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "TrailVfx2",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.92,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.92,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "TrailVfx3",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 1.12,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.12,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "TrailVfx4",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 1.12,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.12,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "textBlockResult",
+            "property": "Opacity",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 1.07,
+                "v": 0.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.75,
+                "v": 1.0,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "textBlockResult",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 1.07,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx1",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.92,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.45,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx2",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 1.07,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.6,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx3",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.85,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.38,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx4",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.25,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.78,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          }
+        ]
+      },
+      "SuccessLoopAnimation": {
+        "duration": 3.0,
+        "begin": 2.13,
+        "tracks": [
+          {
+            "target": "D20ExplHolder",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.17,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.6,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl5",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.2,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.37,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl6",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.23,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.4,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl7",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.27,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.43,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl8",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.3,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.47,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "DiceHolder",
+            "property": "RenderTransform.Children[0].ScaleX",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.27,
+                "v": 1.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.38,
+                "v": 1.25,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.5,
+                "v": 1.25,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.833,1",
+                "ease": null
+              },
+              {
+                "t": 0.7,
+                "v": 1.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              },
+              {
+                "t": 0.77,
+                "v": 1.05,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              },
+              {
+                "t": 0.83,
+                "v": 1.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "DiceHolder",
+            "property": "RenderTransform.Children[0].ScaleY",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.27,
+                "v": 1.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.38,
+                "v": 1.25,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.5,
+                "v": 1.25,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.833,1",
+                "ease": null
+              },
+              {
+                "t": 0.7,
+                "v": 1.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              },
+              {
+                "t": 0.77,
+                "v": 1.05,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              },
+              {
+                "t": 0.83,
+                "v": 1.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.333,0 0.667,1",
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "Shine",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.18,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.38,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "failure": {
+    "scene": {
+      "kind": "Canvas",
+      "name": "HolderCanvas",
+      "a": {
+        "Name": "HolderCanvas",
+        "Width": 3840.0,
+        "Height": 2160.0,
+        "HorizontalAlignment": "Center"
+      },
+      "transforms": [
+        {
+          "kind": "TranslateTransform",
+          "values": {
+            "Y": -80.0
+          }
+        }
+      ],
+      "children": [
+        {
+          "kind": "Canvas",
+          "name": "d20ExplHolder",
+          "a": {
+            "Name": "d20ExplHolder",
+            "Visibility": "Hidden"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 0.9,
+                "ScaleY": 0.9,
+                "CenterX": 1920.0,
+                "CenterY": 965.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 20.0,
+                "Y": 30.0
+              }
+            }
+          ],
+          "children": [
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl_5",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl_5",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1759.0,
+                    "Y": 794.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl_4",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl_4",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": 90.0,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1905.0,
+                    "Y": 800.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl_3",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl_3",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": 180.0,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1905.0,
+                    "Y": 944.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl_2",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl_2",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": 270.0,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1759.0,
+                    "Y": 940.0
+                  }
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "Canvas",
+          "name": "DiceHolder",
+          "a": {
+            "Name": "DiceHolder"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "CenterX": 222.0,
+                "CenterY": 222.0
+              }
+            },
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "CenterX": 222.0,
+                "CenterY": 222.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1696.0,
+                "Y": 754.0
+              }
+            }
+          ],
+          "children": [
+            {
+              "kind": "Canvas",
+              "name": "Shadow",
+              "a": {
+                "Name": "Shadow",
+                "Visibility": "Hidden"
+              },
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 222.0,
+                    "Y": 222.0
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "kind": "Path",
+                  "name": null,
+                  "a": {
+                    "Data": "F1M0,-168.5a168.5,168.5,0,0,0,0,337a168.5,168.5,0,0,0,0,-337Z",
+                    "Opacity": "1",
+                    "Style": "{StaticResource DieShadowStyle}"
+                  },
+                  "transforms": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "kind": "ContentControl",
+              "name": "Dice",
+              "a": {
+                "Name": "Dice",
+                "RenderTransformOrigin": "0.5,0.5",
+                "Template": "{StaticResource DiceTemplate}",
+                "Content": "{Binding ResultNumber}",
+                "Tag": "{Binding FinalResult}"
+              },
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 94.0,
+                    "Y": 94.0
+                  }
+                },
+                {
+                  "kind": "ScaleTransform",
+                  "values": {}
+                },
+                {
+                  "kind": "RotateTransform",
+                  "values": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "Shine",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "Width": "256",
+                "Height": "256",
+                "ClipSize": "256,256",
+                "Margin": "0",
+                "LastFrame": "28",
+                "RepeatBehavior": "1x",
+                "RenderTransformOrigin": "0.5,0.5",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Shine.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Name": "Shine",
+                "Style": "{StaticResource ShineStyle}",
+                "Visibility": "Hidden"
+              },
+              "transforms": [
+                {
+                  "kind": "ScaleTransform",
+                  "values": {}
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 94.0,
+                    "Y": 94.0
+                  }
+                },
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": 0.0
+                  }
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "TrailVfx1",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "232,520",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/trail.png",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "TrailVfx1",
+            "Style": "{StaticResource trailVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "RotateTransform",
+              "values": {
+                "Angle": -180.0,
+                "CenterX": 116.0,
+                "CenterY": 260.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1804.0,
+                "Y": 712.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "Border",
+          "name": "ResultTextFail",
+          "a": {
+            "Name": "ResultTextFail",
+            "Canvas.Top": 1104.0,
+            "Width": 3840.0
+          },
+          "transforms": [],
+          "children": [
+            {
+              "kind": "Viewbox",
+              "name": null,
+              "a": {
+                "HorizontalAlignment": "Center",
+                "Width": "{DynamicResource ResultTextViewBoxWidth}",
+                "Stretch": "Uniform",
+                "StretchDirection": "DownOnly"
+              },
+              "transforms": [],
+              "children": [
+                {
+                  "kind": "TextBlock",
+                  "name": "textBlockResult",
+                  "a": {
+                    "Name": "textBlockResult",
+                    "TextAlignment": "Center",
+                    "VerticalAlignment": "Top",
+                    "Opacity": 0.0,
+                    "Padding": "0,16",
+                    "TextBlockFormatter.SourceText": "{Binding Source='hd26939aeg1617g490ag8118g82040da0d566', ConverterParameter=ToUpper, Converter={StaticResource TranslatedStringConverter}}",
+                    "FontSize": "{StaticResource ScaledHumongousFontSize}",
+                    "Foreground": "{StaticResource LS_alertTxtColor}",
+                    "Background": "{x:Null}",
+                    "Text.Stroke": "{StaticResource LS_tint00}",
+                    "Text.StrokeThickness": 1.5,
+                    "TextWrapping": "Wrap",
+                    "LineStackingStrategy": "BlockLineHeight",
+                    "LineHeight": "{StaticResource ScaledHumongousFontSize}",
+                    "Visibility": "Hidden"
+                  },
+                  "transforms": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "PopExplVfx1",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "216,240",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+            "VerticalAlignment": "Center",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "PopExplVfx1",
+            "Style": "{StaticResource popExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1804.0,
+                "Y": 982.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "AnimatedImage",
+          "name": "PopExplVfx2",
+          "a": {
+            "Template": "{StaticResource BaseAnimatedImage}",
+            "ClipSize": "216,240",
+            "RepeatBehavior": "1x",
+            "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+            "VerticalAlignment": "Center",
+            "HorizontalAlignment": "Center",
+            "Time": "{StaticResource vfxAnimFrameTime}",
+            "Visibility": "Hidden",
+            "Name": "PopExplVfx2",
+            "Style": "{StaticResource popExplosionVfx}"
+          },
+          "transforms": [
+            {
+              "kind": "ScaleTransform",
+              "values": {
+                "ScaleX": 1.4,
+                "ScaleY": 1.4,
+                "CenterX": 108.0,
+                "CenterY": 120.0
+              }
+            },
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "X": 1804.0,
+                "Y": 784.0
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "kind": "Canvas",
+          "name": "ExplosionHolder",
+          "a": {
+            "Name": "ExplosionHolder",
+            "Visibility": "Visible"
+          },
+          "transforms": [
+            {
+              "kind": "TranslateTransform",
+              "values": {
+                "Y": 20.0
+              }
+            }
+          ],
+          "children": [
+            {
+              "kind": "AnimatedImage",
+              "name": "PopExplVfx3",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "216,240",
+                "RepeatBehavior": "1x",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+                "VerticalAlignment": "Center",
+                "HorizontalAlignment": "Center",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "PopExplVfx3",
+                "Style": "{StaticResource popExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "ScaleTransform",
+                  "values": {
+                    "ScaleX": 1.5,
+                    "ScaleY": 1.5,
+                    "CenterX": 108.0,
+                    "CenterY": 120.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1794.0,
+                    "Y": 540.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "PopExplVfx4",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "216,240",
+                "RepeatBehavior": "1x",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+                "VerticalAlignment": "Center",
+                "HorizontalAlignment": "Center",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "PopExplVfx4",
+                "Style": "{StaticResource popExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1794.0,
+                    "Y": 810.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "PopExplVfx5",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "216,240",
+                "RepeatBehavior": "1x",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/popExplosion.png",
+                "VerticalAlignment": "Center",
+                "HorizontalAlignment": "Center",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "PopExplVfx5",
+                "Style": "{StaticResource popExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1814.0,
+                    "Y": 810.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl1",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl1",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "ScaleTransform",
+                  "values": {
+                    "ScaleX": -1.0,
+                    "ScaleY": -1.0,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": -47.69,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1820.0,
+                    "Y": 784.0
+                  }
+                }
+              ],
+              "children": []
+            },
+            {
+              "kind": "AnimatedImage",
+              "name": "d20Expl2",
+              "a": {
+                "Template": "{StaticResource BaseAnimatedImage}",
+                "ClipSize": "178,184",
+                "Margin": "-20",
+                "RepeatBehavior": "Forever",
+                "Source": "pack://application:,,,/Core;component/Assets/ActiveRoll/VFX/d20Explosion.png",
+                "Time": "{StaticResource vfxAnimFrameTime}",
+                "Visibility": "Hidden",
+                "Name": "d20Expl2",
+                "Style": "{StaticResource d20ExplosionVfx}"
+              },
+              "transforms": [
+                {
+                  "kind": "ScaleTransform",
+                  "values": {
+                    "ScaleX": -1.0,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "RotateTransform",
+                  "values": {
+                    "Angle": 213.89,
+                    "CenterX": 89.0,
+                    "CenterY": 92.0
+                  }
+                },
+                {
+                  "kind": "TranslateTransform",
+                  "values": {
+                    "X": 1840.0,
+                    "Y": 714.0
+                  }
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "boards": {
+      "ResultFailAnimation": {
+        "duration": 4.38,
+        "begin": 0.0,
+        "tracks": [
+          {
+            "target": "d20ExplHolder",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.17,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 3.3,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl_5",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.17,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 3.67,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl_4",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.17,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 3.67,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl_3",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.17,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 3.67,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl_2",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.17,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 3.67,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "DiceHolder",
+            "property": "RenderTransform.Children[2].Y",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.0,
+                "v": 754.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.78,
+                "v": 754.0,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.48,
+                "v": 754.0,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.97,
+                "v": 754.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.98,
+                "v": 754.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.329,0.118 0.701,1",
+                "ease": null
+              },
+              {
+                "t": 2.12,
+                "v": 792.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.167,0 0.701,1",
+                "ease": null
+              },
+              {
+                "t": 2.33,
+                "v": 732.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.167,0 0.701,1",
+                "ease": null
+              },
+              {
+                "t": 2.4,
+                "v": 751.52,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.176,0 0.561,0.732",
+                "ease": null
+              },
+              {
+                "t": 2.42,
+                "v": 754.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.327,0.533 0.662,0.893",
+                "ease": null
+              },
+              {
+                "t": 2.45,
+                "v": 762.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.167,0.022 0.701,1",
+                "ease": null
+              },
+              {
+                "t": 2.57,
+                "v": 754.0,
+                "kind": "SplineDoubleKeyFrame",
+                "spline": "0.167,0 0.701,1",
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "Shine",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 1.58,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 3.02,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "Dice",
+            "property": "Tag",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 1.12,
+                "v": "",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 1.3,
+                "v": "FailResult",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "TrailVfx1",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 1.78,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.68,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "textBlockResult",
+            "property": "Opacity",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.2,
+                "v": 0.0,
+                "kind": "DiscreteDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.88,
+                "v": 1.0,
+                "kind": "LinearDoubleKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "textBlockResult",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.17,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx1",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.33,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.87,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx2",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.35,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.88,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx3",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.33,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 0.85,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx4",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.17,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.7,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "PopExplVfx5",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.45,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 2.98,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl1",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.05,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 3.12,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "d20Expl2",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 2.05,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              },
+              {
+                "t": 3.12,
+                "v": "{x:Static Visibility.Hidden}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          },
+          {
+            "target": "Shadow",
+            "property": "Visibility",
+            "begin": 0.0,
+            "duration": 0.0,
+            "from": "",
+            "to": "",
+            "frames": [
+              {
+                "t": 0.0,
+                "v": "{x:Static Visibility.Visible}",
+                "kind": "DiscreteObjectKeyFrame",
+                "spline": null,
+                "ease": null
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "idle": {
+    "tracks": [
+      {
+        "target": null,
+        "property": "(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)",
+        "begin": 0.5,
+        "duration": 3.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.5,
+            "v": 1.0,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 0.75,
+            "v": 1.3,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": "<ns0:EasingDoubleKeyFrame.EasingFunction xmlns:ns0=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">\n                    <ns0:CubicEase EasingMode=\"EaseOut\" />\n                </ns0:EasingDoubleKeyFrame.EasingFunction>\n            "
+          },
+          {
+            "t": 1.25,
+            "v": 1.0,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": "<ns0:EasingDoubleKeyFrame.EasingFunction xmlns:ns0=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">\n                    <ns0:CubicEase EasingMode=\"EaseIn\" />\n                </ns0:EasingDoubleKeyFrame.EasingFunction>\n            "
+          },
+          {
+            "t": 1.5,
+            "v": 1.1,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": "<ns0:EasingDoubleKeyFrame.EasingFunction xmlns:ns0=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">\n                    <ns0:CubicEase EasingMode=\"EaseOut\" />\n                </ns0:EasingDoubleKeyFrame.EasingFunction>\n            "
+          },
+          {
+            "t": 1.75,
+            "v": 1.0,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": "<ns0:EasingDoubleKeyFrame.EasingFunction xmlns:ns0=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">\n                    <ns0:CubicEase EasingMode=\"EaseIn\" />\n                </ns0:EasingDoubleKeyFrame.EasingFunction>\n            "
+          }
+        ]
+      },
+      {
+        "target": null,
+        "property": "(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)",
+        "begin": 0.5,
+        "duration": 3.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.5,
+            "v": 1.0,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 0.75,
+            "v": 1.3,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": "<ns0:EasingDoubleKeyFrame.EasingFunction xmlns:ns0=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">\n                    <ns0:CubicEase EasingMode=\"EaseOut\" />\n                </ns0:EasingDoubleKeyFrame.EasingFunction>\n            "
+          },
+          {
+            "t": 1.25,
+            "v": 1.0,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": "<ns0:EasingDoubleKeyFrame.EasingFunction xmlns:ns0=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">\n                    <ns0:CubicEase EasingMode=\"EaseIn\" />\n                </ns0:EasingDoubleKeyFrame.EasingFunction>\n            "
+          },
+          {
+            "t": 1.5,
+            "v": 1.1,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": "<ns0:EasingDoubleKeyFrame.EasingFunction xmlns:ns0=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">\n                    <ns0:CubicEase EasingMode=\"EaseOut\" />\n                </ns0:EasingDoubleKeyFrame.EasingFunction>\n            "
+          },
+          {
+            "t": 1.75,
+            "v": 1.0,
+            "kind": "EasingDoubleKeyFrame",
+            "spline": null,
+            "ease": "<ns0:EasingDoubleKeyFrame.EasingFunction xmlns:ns0=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">\n                    <ns0:CubicEase EasingMode=\"EaseIn\" />\n                </ns0:EasingDoubleKeyFrame.EasingFunction>\n            "
+          }
+        ]
+      },
+      {
+        "target": "Shine",
+        "property": "Visibility",
+        "begin": 0.3,
+        "duration": 3.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.58,
+            "v": "{x:Static Visibility.Visible}",
+            "kind": "DiscreteObjectKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 2.02,
+            "v": "{x:Static Visibility.Hidden}",
+            "kind": "DiscreteObjectKeyFrame",
+            "spline": null,
+            "ease": null
+          }
+        ]
+      }
+    ]
+  },
+  "bonus": {
+    "tracks": [
+      {
+        "target": "AnimationVfxHolder",
+        "property": "Tag",
+        "begin": 0.0,
+        "duration": 0.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 1.08,
+            "v": "StartTrail",
+            "kind": "DiscreteObjectKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 1.42,
+            "v": "CountResult",
+            "kind": "DiscreteObjectKeyFrame",
+            "spline": null,
+            "ease": null
+          }
+        ]
+      },
+      {
+        "target": "modValText",
+        "property": "Opacity",
+        "begin": 0.0,
+        "duration": 0.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.42,
+            "v": 1.0,
+            "kind": "DiscreteDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 1.37,
+            "v": 1.0,
+            "kind": "SplineDoubleKeyFrame",
+            "spline": "0.333,0 0.667,1",
+            "ease": null
+          },
+          {
+            "t": 1.42,
+            "v": 0.0,
+            "kind": "SplineDoubleKeyFrame",
+            "spline": "0.333,0 0.833,1",
+            "ease": null
+          }
+        ]
+      },
+      {
+        "target": "modVal",
+        "property": "Visibility",
+        "begin": 0.0,
+        "duration": 0.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.42,
+            "v": "{x:Static Visibility.Visible}",
+            "kind": "DiscreteObjectKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 1.95,
+            "v": "{x:Static Visibility.Hidden}",
+            "kind": "DiscreteObjectKeyFrame",
+            "spline": null,
+            "ease": null
+          }
+        ]
+      },
+      {
+        "target": "modVal",
+        "property": "(UIElement.RenderTransform).(TransformGroup.Children)[0].ScaleX",
+        "begin": 0.0,
+        "duration": 0.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.42,
+            "v": 0.4,
+            "kind": "DiscreteDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 0.58,
+            "v": 1.5,
+            "kind": "SplineDoubleKeyFrame",
+            "spline": "0.167,0.167 0.667,1",
+            "ease": null
+          },
+          {
+            "t": 1.28,
+            "v": 1.0,
+            "kind": "LinearDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          }
+        ]
+      },
+      {
+        "target": "modVal",
+        "property": "(UIElement.RenderTransform).(TransformGroup.Children)[0].ScaleY",
+        "begin": 0.0,
+        "duration": 0.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.42,
+            "v": 0.4,
+            "kind": "DiscreteDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 0.58,
+            "v": 1.5,
+            "kind": "SplineDoubleKeyFrame",
+            "spline": "0.167,0.167 0.667,1",
+            "ease": null
+          },
+          {
+            "t": 1.28,
+            "v": 1.0,
+            "kind": "LinearDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          }
+        ]
+      },
+      {
+        "target": "modVal",
+        "property": "Tag",
+        "begin": 0.0,
+        "duration": 0.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.58,
+            "v": "PlaySound",
+            "kind": "DiscreteObjectKeyFrame",
+            "spline": null,
+            "ease": null
+          }
+        ]
+      },
+      {
+        "target": "modVal",
+        "property": "(UIElement.RenderTransform).(TransformGroup.Children)[1].(TranslateTransform.Y)",
+        "begin": 0.0,
+        "duration": 0.0,
+        "from": "",
+        "to": "",
+        "frames": [
+          {
+            "t": 0.42,
+            "v": "{Binding ActualHeight,RelativeSource={RelativeSource AncestorType=ls:LSLineControl}}",
+            "kind": "LinearDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 1.13,
+            "v": "{Binding ActualHeight,RelativeSource={RelativeSource AncestorType=ls:LSLineControl}}",
+            "kind": "LinearDoubleKeyFrame",
+            "spline": null,
+            "ease": null
+          },
+          {
+            "t": 1.37,
+            "v": 0.0,
+            "kind": "SplineDoubleKeyFrame",
+            "spline": "0.03,0.138 0.97,0.862",
+            "ease": null
+          }
+        ]
+      }
+    ]
+  }
+}

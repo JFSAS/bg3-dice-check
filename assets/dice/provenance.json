@@ -1,0 +1,6 @@
+{
+  "source": "https://baldursgate3.game/mods/guides/example_dice.zip",
+  "archive_sha256": "b38709bbd17aca779282c510d3f7d749c0c447b8ded366ba1c400ea27a8693d1",
+  "pixel_equivalence": "25/25 exact RGBA comparisons passed, including transparent RGB",
+  "ui_replication": "Original installed-game UI now included; see ../original-provenance.json. This file records the earlier official sample comparison."
+}

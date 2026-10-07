@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>命运之骰 · D20 检定</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="veil"></div><canvas id="particles" aria-hidden="true"></canvas>
+<header><a class="brand" href="./"><span>原版检定移植</span></a><nav><button id="historyButton">检定记录 <span id="historyCount">0</span></button><button id="soundButton" aria-label="关闭音效" aria-pressed="true">♫ <span>音效开启</span></button><button id="settingsButton" class="outline">自定义检定 <span>↗</span></button></nav></header>
+<main id="checkStage">
+<div class="question-holder"><h1 id="question"></h1><img src="assets/ui/dialogueSeparator.webp" alt="">
+<div class="skill"><span id="skillName"></span><p id="context"></p></div></div>
+<section class="check" aria-label="骰子检定">
+<img class="original-frame" src="assets/ui/ActiveRollFrame.webp" alt="">
+<img class="frame-join left" src="assets/ui/FrameJoin.webp" alt=""><img class="frame-join right" src="assets/ui/FrameJoin.webp" alt="">
+<div class="dc-label">难度等级</div><div class="dc"><strong id="dcValue"></strong></div>
+<div class="dice-area"><button id="diceButton" aria-label="点击骰子进行检定"><canvas id="dice" width="512" height="512"></canvas></button><span id="bonusFly" aria-hidden="true"></span><canvas id="rollVfx" width="3840" height="2160" aria-hidden="true"></canvas></div>
+<div class="status-wrap" aria-live="polite" aria-atomic="true"><div id="resultTitle"></div><div id="rollPrompt">正在加载骰子…</div><div id="calculation"></div></div>
+<div class="bonuses"><div class="bonus-card"><strong id="abilityDisplay"></strong><img class="bonus-icon" src="assets/icons/Charisma.webp" alt="属性加值"><small id="abilityLabelDisplay"></small></div><div class="bonus-card"><strong id="proficiencyDisplay"></strong><img class="bonus-icon" src="assets/icons/Proficiency.webp" alt="熟练加值"><small id="proficiencyLabelDisplay"></small></div></div>
+<div class="bonus-total"><span>总加值 </span><strong id="totalBonus"></strong></div>
+<div class="actions"><button id="continueButton" class="gold" hidden>继续</button><p id="ruleNote">D20 + 加值 ≥ 难度等级，即为成功</p></div>
+</section></main><footer><span>✧ &nbsp; 把犹豫留给昨天，把可能交给今天。</span><button id="aboutButton">关于此原型</button><span>D20 · 命运由你开启</span></footer>
+<dialog id="settingsDialog"><form id="settingsForm"><div class="dialog-head"><div><small>WRITE YOUR NEXT CHAPTER</small><h2>你的下一次冒险</h2></div><button type="button" class="close" data-close="settingsDialog" aria-label="关闭">×</button></div><label>想尝试的事情<textarea aria-label="想尝试的事情" name="question" maxlength="160" required rows="2">要不要开始那个一直想做的项目？</textarea></label><label>一句背景说明<input name="context" maxlength="240" value="你已经准备了很久。现在，让命运推你一把。"></label><div class="form-grid"><label>检定名称<input name="skill" maxlength="30" value="勇气检定" required></label><label>难度等级（DC）<input name="dc" type="number" min="1" max="40" value="12" required></label></div><div class="form-grid"><label>加值一的名称<input name="abilityLabel" maxlength="30" value="充分准备" required></label><label>加值一<input name="ability" type="number" min="-20" max="20" value="2" required></label><label>加值二的名称<input name="proficiencyLabel" maxlength="30" value="经验积累" required></label><label>加值二<input name="proficiency" type="number" min="-20" max="20" value="1" required></label></div><label class="checkbox"><input name="critical" type="checkbox" checked>使用博德之门式大成功／大失败（天然 20／1）</label><div id="chancePreview"></div><button class="gold" type="submit">开启这次检定 <span>→</span></button></form></dialog>
+<dialog id="historyDialog"><div class="dialog-head"><div><small>THE CHRONICLE</small><h2>你的检定记录</h2></div><button class="close" data-close="historyDialog" aria-label="关闭">×</button></div><div id="historyList"></div><button id="clearHistory" class="outline">清空记录</button></dialog>
+<dialog id="aboutDialog"><div class="dialog-head"><h2>关于命运之骰</h2><button class="close" data-close="aboutDialog" aria-label="关闭">×</button></div><p>骰子、检定框架、加值卡片、提示框、特效与字体取自你 Windows 上安装的游戏 Game.pak，按无损方式转换为浏览器资源。</p><p>滚动路径与 33 毫秒帧间隔依据游戏 DiceAnimation.xaml；网页移植仍需与游戏实录核对细节。音效来自 UI.bnk，保留分层与随机变体；浏览器播放仍需与游戏实录核对。</p><p>结果由浏览器的加密随机源产生。它可以为日常选择增加一点仪式感；问题和难度目前由你填写，还没有接入个人 Agent。</p><a href="https://docs.baldursgate3.game/Adding_Dice" target="_blank" rel="noreferrer">查看官方素材来源 ↗</a></dialog>
+<script src="native-engine.js"></script>
+<script src="app.js"></script></body></html>

@@ -1,0 +1,522 @@
+{
+  "source": "Installed Windows Baldurs Gate 3, Game.pak",
+  "installation": "G:/SteamLibrary/steamapps/common/Baldurs Gate 3",
+  "tool": "Norbyte LSLib v1.20.4",
+  "conversion": "Lossless WebP, exact RGBA round trip verified",
+  "patches": "HotFix9/10 indexes inspected; no mouse ActiveRoll/DiceAnimation/default dice overrides",
+  "assets": [
+    {
+      "path": "ui/rollPrompt.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/rollPrompt.DDS",
+      "sha256": "06619b4d5563a6eb55403a5d6f53d8536e2455e345a875d29596d65554a9175d",
+      "size": [
+        440,
+        120
+      ]
+    },
+    {
+      "path": "ui/ico_advantageLarge.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/ico_advantageLarge.DDS",
+      "sha256": "9be51020f8f368040ba436f6e545bdca07f858c326a85a894851a6de7609fcd9",
+      "size": [
+        72,
+        52
+      ]
+    },
+    {
+      "path": "ui/totalBonusFrameElement.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/totalBonusFrameElement.DDS",
+      "sha256": "196a9e0900b1775b644a32112baefaaa4ff08216a4a27909b3a3dc8f0bebb631",
+      "size": [
+        796,
+        36
+      ]
+    },
+    {
+      "path": "ui/itemSlot.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/itemSlot.DDS",
+      "sha256": "ab5c7aade6ca6e52a99edc16af597ce695a1c07804670a725b7c6b8db525072f",
+      "size": [
+        104,
+        104
+      ]
+    },
+    {
+      "path": "ui/rerollPane.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/rerollPane.DDS",
+      "sha256": "02e958dde2233416763f66afcb98c756650f6d37e178b666198f983f6cb2fc83",
+      "size": [
+        772,
+        280
+      ]
+    },
+    {
+      "path": "ui/ico_bonusDisabled.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/ico_bonusDisabled.DDS",
+      "sha256": "442cb2f9c1c836f1634ed6cf4569238f0f7b535e4a3bbcf70664042203e01c1d",
+      "size": [
+        68,
+        68
+      ]
+    },
+    {
+      "path": "ui/AddMoreBG.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/AddMoreBG.DDS",
+      "sha256": "7da96cd4f52a9052f3c01e5b5bb12ae7feafa519202f6f1f93f945cb05edf209",
+      "size": [
+        772,
+        104
+      ]
+    },
+    {
+      "path": "ui/tryAgainPane.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/tryAgainPane.DDS",
+      "sha256": "0ed2b8a315dfbf83e6994fde78d8f85da3012170f045c782c421baafbcaf3973",
+      "size": [
+        772,
+        256
+      ]
+    },
+    {
+      "path": "ui/activeModifierBucket_white_h.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/activeModifierBucket_white_h.DDS",
+      "sha256": "0f63d3c0766e2dbb16a41241a2cac64015c75d8aaacfad2f6bc7e5398ba473fd",
+      "size": [
+        260,
+        360
+      ]
+    },
+    {
+      "path": "ui/FrameJoin.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/FrameJoin.DDS",
+      "sha256": "19da739c19e877f0d9700bdc5c62c821ada0e54df4785ebf5a20860b77c040ba",
+      "size": [
+        204,
+        44
+      ]
+    },
+    {
+      "path": "ui/activeModifierBucket_d.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/activeModifierBucket_d.DDS",
+      "sha256": "6a7a580ebed507b15212080337fd1aafda9daf8f7358678663ce0b64dd8a3d6b",
+      "size": [
+        260,
+        360
+      ]
+    },
+    {
+      "path": "ui/inactiveModifierBucket_d.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/inactiveModifierBucket_d.DDS",
+      "sha256": "d8e562169f88fceb936f2f29555f73be175d12ab9df57190d551cf4df977a883",
+      "size": [
+        260,
+        352
+      ]
+    },
+    {
+      "path": "ui/lockBG.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/lockBG.DDS",
+      "sha256": "6591e13a8ff335b4ead1ae09ed3540f9e71f31555220f1929aa17b8ac5ce539a",
+      "size": [
+        172,
+        272
+      ]
+    },
+    {
+      "path": "ui/ActiveRollFrame.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/ActiveRollFrame.DDS",
+      "sha256": "3ea5ef59338dc2318f7e23b26d99234911b104eebcec898fe0fb25d7f862906e",
+      "size": [
+        728,
+        880
+      ]
+    },
+    {
+      "path": "ui/bonusDeckPortriatBracket.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/bonusDeckPortriatBracket.DDS",
+      "sha256": "a240e6c47753c6b1e0b9bf6a051fbc03d50009240347322887b95b118bacf861",
+      "size": [
+        272,
+        100
+      ]
+    },
+    {
+      "path": "ui/activeModifierBucket_h.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/activeModifierBucket_h.DDS",
+      "sha256": "60c333b7c9b500f41eb3352601907e35c6e198fc4b658c98b83264afee193030",
+      "size": [
+        260,
+        360
+      ]
+    },
+    {
+      "path": "ui/inactiveModifierBucket_h.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/inactiveModifierBucket_h.DDS",
+      "sha256": "baa526026adbd8cb71d34a62afe408200904154bb69727282fdbdfea86a2f2fc",
+      "size": [
+        260,
+        352
+      ]
+    },
+    {
+      "path": "ui/activeModifierBucket_white_d.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/activeModifierBucket_white_d.DDS",
+      "sha256": "0ea60abdfcd5847e8bf6295bfab1354fb7e0b19059cd6742f14c7b13f6cb598d",
+      "size": [
+        260,
+        360
+      ]
+    },
+    {
+      "path": "ui/companionAidFrame.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/companionAidFrame.DDS",
+      "sha256": "dd10bf983018b4a29ef82dcf138573c21a89282ec8b137885adee52547571018",
+      "size": [
+        72,
+        72
+      ]
+    },
+    {
+      "path": "ui/dialogueSeparator.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/dialogueSeparator.DDS",
+      "sha256": "2bd9cd7a8c3e68e430adb9f27c99640bd173634283084cbf0dcf5089589d57a4",
+      "size": [
+        796,
+        40
+      ]
+    },
+    {
+      "path": "ui/addArrow.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/addArrow.DDS",
+      "sha256": "75f0f2b0ca79bec446871f97dcac7e9f3d205679f3b48332c55388a7feef9f8b",
+      "size": [
+        68,
+        84
+      ]
+    },
+    {
+      "path": "ui/modifierDivider_active.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/modifierDivider_active.DDS",
+      "sha256": "a38d2cf8a74f90a394dbeaa410551d8405f27148abe2c5d2a9438d1aa914c1ac",
+      "size": [
+        44,
+        240
+      ]
+    },
+    {
+      "path": "ui/VFX/d20Shine.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/VFX/d20Shine.DDS",
+      "sha256": "38b9d6543cb7808e95d0489df99f22f5304de6f839b464b87b1b24373fcf05d7",
+      "size": [
+        1536,
+        1280
+      ]
+    },
+    {
+      "path": "ui/VFX/d20Explosion.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/VFX/d20Explosion.DDS",
+      "sha256": "fb03babeddbdaa0c3d295f8d55bc205a411eb1a9f4ff817bc3dd7b4444416601",
+      "size": [
+        1068,
+        1104
+      ]
+    },
+    {
+      "path": "ui/VFX/bucketEdge.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/VFX/bucketEdge.DDS",
+      "sha256": "39c2229aa6abe40ca45d4933994432876f4a45da706022a30e42e38470f521ec",
+      "size": [
+        1596,
+        1272
+      ]
+    },
+    {
+      "path": "ui/VFX/trail.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/VFX/trail.DDS",
+      "sha256": "b533337524853023a87651947b477365c35e3f032d61904e6c59480a10565a97",
+      "size": [
+        1392,
+        2600
+      ]
+    },
+    {
+      "path": "ui/VFX/popExplosion.webp",
+      "source": "work/windows-ui/Public/Game/GUI/Assets/ActiveRoll/VFX/popExplosion.DDS",
+      "sha256": "f4ffb6f12a91aa10168586c04445a34c09fb6c794bdc7bdaf0465ae25b23152b",
+      "size": [
+        864,
+        960
+      ]
+    },
+    {
+      "path": "dice/d20_4.webp",
+      "sha256": "7ab39c823ff1adb48f388054b8e1cbe6457150b434808ebadaae1008895ec53b",
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_5.webp",
+      "sha256": "b276bf195f41dca894add0e946be20b2aa855a324a5ef3035dff6a9fc949dcf7",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_7.webp",
+      "sha256": "c214cd1b02db187fd7c97e86be87ed3379708d623a0d14fa36ef5cd8e2d6a006",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_6.webp",
+      "sha256": "8988ec6fc4612ae3130bd163de9554cf39b7e25aceeb140b3e4ed3ab80a8af7e",
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_2.webp",
+      "sha256": "e616d99b8f4f7a17155f6a40b10922f61cbd1b6de6b49450ff27b3b0c1bd187c",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_3.webp",
+      "sha256": "974061b8543db30365b7457146ab3ff006d48276a019d2211135fdec87a2adfe",
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "path": "dice/d20_1.webp",
+      "sha256": "1ff6926a765bda90515054963a45242d07a458f302b43f6c14eb138092c930ef",
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_19.webp",
+      "sha256": "602da169f162aa4ce72069d785f5a4f8495946310cd2970e2102fdcbd7db49bc",
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_18.webp",
+      "sha256": "ac57658326b3fe08223eab85f271b94691f367854812e2fe866144e65c3182e5",
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "path": "dice/single_roll.webp",
+      "sha256": "faadb83c3658765c5adb2c6ad01b6e5fb578ff82ee488ffc200e0459baf5798d",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "dice/d20_20.webp",
+      "sha256": "3b7d223be17831e08bc2266a49d1ac2d93296963c2b04450030d5309ecf197ab",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_10.webp",
+      "sha256": "bd1e9826ac1d75de976a102f074ec9c5bd42cc04b2cb6d8b57797824c3908139",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_11.webp",
+      "sha256": "777414bfbae144fca358804013b1aabac6ef841f8967b3ecf00867eace1eec7e",
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_13.webp",
+      "sha256": "0bb584e832fecf42715fa038e698a35722a92abfe404e5438619df9f91a86710",
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "path": "dice/d20_12.webp",
+      "sha256": "e03fa84616736599b9e624c56682d49c5ce6feb410549e04e4fda7f391f132b9",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_16.webp",
+      "sha256": "e5c0cc26b27f19dbad3e639dbc9f62158f36783848b0a73a93c01b049d6aa22c",
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_17.webp",
+      "sha256": "fb4b0e8905d93f466fc2e2f2eae0bb4448426222684080f7654e7718a9c47a1e",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_15.webp",
+      "sha256": "3ccd9d5f171f4ad52939bc58be57ca52fa85ea6157b10845ac11b9c6d42a5dae",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_14.webp",
+      "sha256": "b9f5e540adcf0a14d8d31a93f1fa992913186f9109844281da03ddab499f01a1",
+      "size": [
+        1280,
+        1024
+      ]
+    },
+    {
+      "path": "dice/d20_faceCover.webp",
+      "sha256": "74f823c4ce65f2c0457f1498137ad6cef5daaf719fae57ec9240335548f66410",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "dice/double_roll_2.webp",
+      "sha256": "c56078792000bfccf9a9aa37cb632d22be21ac4f471c48338de70248c571a6ca",
+      "size": [
+        1536,
+        1280
+      ]
+    },
+    {
+      "path": "dice/d20.webp",
+      "sha256": "5ee43344218f24d6abbd8175309109b6620cb342233f9453309fd259fe222869",
+      "size": [
+        1280,
+        1280
+      ]
+    },
+    {
+      "path": "dice/d20_8.webp",
+      "sha256": "8e9707b714e43bd794b9e253b14db56e4bc12091823d48b0e847c25125a8ea38",
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "path": "dice/double_roll_1.webp",
+      "sha256": "258338a2aaf923a3a47c321c911f4c0ad6d36cb1e3389a00e3be73157a73f86a",
+      "size": [
+        1536,
+        1280
+      ]
+    },
+    {
+      "path": "dice/d20_9.webp",
+      "sha256": "15bd3139f54590f25235edbde7605d14b95b520b3e7f344f648729198cfc5417",
+      "size": [
+        1280,
+        1024
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "path": "icons/Wisdom.webp",
+      "source": "work/windows-icons/Public/Game/GUI/Assets/AbilityIcons/Wisdom.DDS",
+      "sourceSha256": "c4e07d10a6e319c78ee51608f490528b0e4b5ab74c85d0ddd4cdcf08e2dbe87d",
+      "conversion": "Exact RGBA round trip verified"
+    },
+    {
+      "path": "icons/expertise.webp",
+      "source": "work/windows-icons/Public/Game/GUI/Assets/AbilityIcons/expertise.DDS",
+      "sourceSha256": "757a8b85cf7e8dbe7929b8f49df9cd711cf07d327af9963c49f7754622175570",
+      "conversion": "Exact RGBA round trip verified"
+    },
+    {
+      "path": "icons/Strength.webp",
+      "source": "work/windows-icons/Public/Game/GUI/Assets/AbilityIcons/Strength.DDS",
+      "sourceSha256": "0d43a51703be3094e1b8efdb2c893f5c1c432ca3ca1db8ad3f2b56d6fd84ba47",
+      "conversion": "Exact RGBA round trip verified"
+    },
+    {
+      "path": "icons/Proficiency.webp",
+      "source": "work/windows-icons/Public/Game/GUI/Assets/AbilityIcons/Proficiency.DDS",
+      "sourceSha256": "0afd122c216c2367cd1500e850f8b093e5b7fb02f97ff15094c8060f65e30449",
+      "conversion": "Exact RGBA round trip verified"
+    },
+    {
+      "path": "icons/Charisma.webp",
+      "source": "work/windows-icons/Public/Game/GUI/Assets/AbilityIcons/Charisma.DDS",
+      "sourceSha256": "efa067c4f290cd4ca6ee89c72838091f3099d1595fd9928076dad35ee10e2442",
+      "conversion": "Exact RGBA round trip verified"
+    },
+    {
+      "path": "icons/Dexterity.webp",
+      "source": "work/windows-icons/Public/Game/GUI/Assets/AbilityIcons/Dexterity.DDS",
+      "sourceSha256": "7129832558610a10f744081c2cb576efeacee596fa36be910835d79420502954",
+      "conversion": "Exact RGBA round trip verified"
+    },
+    {
+      "path": "icons/Intelligence.webp",
+      "source": "work/windows-icons/Public/Game/GUI/Assets/AbilityIcons/Intelligence.DDS",
+      "sourceSha256": "90b4d95da033da8c583711577a6935a9b0f80fd6dccb1cc4aef729f88f213300",
+      "conversion": "Exact RGBA round trip verified"
+    },
+    {
+      "path": "icons/Constitution.webp",
+      "source": "work/windows-icons/Public/Game/GUI/Assets/AbilityIcons/Constitution.DDS",
+      "sourceSha256": "251c417f3f9aeb38ae1b81cb0eccc1fc247080c72e5cb1b8410558814ab6fea1",
+      "conversion": "Exact RGBA round trip verified"
+    }
+  ],
+  "fonts": [
+    {
+      "path": "fonts/QuadraatOffcPro.ttf",
+      "sha256": "7f0f3855f887fffff8a3b787c8d04ec37411dac31167016aec94a56fd53bbb06"
+    },
+    {
+      "path": "fonts/NotoSerifSC-Regular.otf",
+      "sha256": "4f05a61b6543b1e595cfdf98b915b8e80ae804d5d0df5aa6ab0ca75bac296699"
+    },
+    {
+      "path": "fonts/QuadraatOffcPro-Bold.ttf",
+      "sha256": "6f0a813a49c76bee9b1b3f9f9e1023a9b81c4cdfb867575abaf9256089e478be"
+    }
+  ],
+  "animation": {
+    "source": "source-reference/DiceAnimation.xaml",
+    "export": "assets/native-animation.json",
+    "importedTracks": 62,
+    "runtime": "XAML scalar/object keyframes, cubic splines, transforms and source sprite clips"
+  }
+}

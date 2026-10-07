@@ -1,0 +1,942 @@
+{
+  "source": "SharedSoundBanks.pak/Public/Shared/Assets/Sound/UI.bnk",
+  "bankSha256": "1990db9c0a81457044ca2de208a7b415860e057798bb612e69e7bb96d5c30b06",
+  "decoder": "vgmstream r2117, PCM WAV",
+  "eventParser": "wwiser v20260808 with Init.bnk bus graph",
+  "context": "Normal; flat single D20",
+  "events": {
+    "UI_HUD_DiceRoll_Appear": {
+      "tree": {
+        "kind": "layer",
+        "children": [
+          {
+            "kind": "sound",
+            "id": "382586858"
+          },
+          {
+            "kind": "random",
+            "children": [
+              {
+                "kind": "sound",
+                "id": "717588137",
+                "db": -3.5
+              },
+              {
+                "kind": "sound",
+                "id": "124811464",
+                "db": -3.5
+              },
+              {
+                "kind": "sound",
+                "id": "919497788",
+                "db": -3.5
+              },
+              {
+                "kind": "sound",
+                "id": "651950374",
+                "db": -3.5
+              }
+            ],
+            "loop": true,
+            "selectOne": false,
+            "delay": 1.0
+          }
+        ],
+        "loop": false,
+        "selectOne": false
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_Appear {m}.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_RollStart": {
+      "tree": {
+        "kind": "layer",
+        "children": [
+          {
+            "kind": "sound",
+            "id": "393654973",
+            "db": -23.0
+          },
+          {
+            "kind": "sound",
+            "id": "909704385"
+          },
+          {
+            "kind": "silence",
+            "duration": 1.0,
+            "db": -23.0
+          }
+        ],
+        "loop": false,
+        "selectOne": false
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_RollStart [UI_HUD_ActiveRoll_Context=1160234136] [UI_HUD_ActiveRoll_AdvantageType=1160234136].txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_Bonus_Appear": {
+      "tree": {
+        "kind": "random",
+        "children": [
+          {
+            "kind": "sound",
+            "id": "687008453"
+          },
+          {
+            "kind": "sound",
+            "id": "344639615",
+            "db": -3.0
+          },
+          {
+            "kind": "sound",
+            "id": "551104014",
+            "db": -3.0
+          }
+        ],
+        "loop": false,
+        "selectOne": false
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_Bonus_Appear {r}.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_Bonus_NumberAdded_Positive": {
+      "tree": {
+        "kind": "sequence",
+        "children": [
+          {
+            "kind": "sound",
+            "id": "257990369"
+          },
+          {
+            "kind": "sound",
+            "id": "356862411"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          },
+          {
+            "kind": "sound",
+            "id": "51827166"
+          }
+        ],
+        "loop": false,
+        "selectOne": true
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_Bonus_NumberAdded [1901447776=1192865152] {r}.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_Bonus_NumberAdded_Negative": {
+      "tree": {
+        "kind": "random",
+        "children": [
+          {
+            "kind": "sound",
+            "id": "8684437"
+          },
+          {
+            "kind": "sound",
+            "id": "928649427"
+          },
+          {
+            "kind": "sound",
+            "id": "233630108"
+          }
+        ],
+        "loop": false,
+        "selectOne": false
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_Bonus_NumberAdded [1901447776=4219547688] {r}.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_BonusType_Ability": {
+      "tree": {
+        "kind": "sound",
+        "id": "720452215"
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_BonusType_Ability.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_Result_Success": {
+      "tree": {
+        "kind": "layer",
+        "children": [
+          {
+            "kind": "random",
+            "children": [
+              {
+                "kind": "sound",
+                "id": "584449721"
+              },
+              {
+                "kind": "sound",
+                "id": "903881425"
+              },
+              {
+                "kind": "sound",
+                "id": "255644950"
+              },
+              {
+                "kind": "sound",
+                "id": "591281622"
+              }
+            ],
+            "loop": true,
+            "selectOne": false,
+            "delay": 1.5750000476837158
+          },
+          {
+            "kind": "sound",
+            "id": "441028196",
+            "db": -1.0
+          }
+        ],
+        "loop": false,
+        "selectOne": false
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_Result_Success [UI_HUD_ActiveRoll_Context=1160234136] {m} {d}.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_Result_Fail": {
+      "tree": {
+        "kind": "sound",
+        "id": "355159110"
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_Result_Fail [UI_HUD_ActiveRoll_Context=1160234136] {d}.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_Result_20": {
+      "tree": {
+        "kind": "layer",
+        "children": [
+          {
+            "kind": "random",
+            "children": [
+              {
+                "kind": "sound",
+                "id": "584449721"
+              },
+              {
+                "kind": "sound",
+                "id": "903881425"
+              },
+              {
+                "kind": "sound",
+                "id": "255644950"
+              },
+              {
+                "kind": "sound",
+                "id": "591281622"
+              }
+            ],
+            "loop": true,
+            "selectOne": false,
+            "delay": 1.5750000476837158
+          },
+          {
+            "kind": "sound",
+            "id": "441028196",
+            "db": -1.0
+          }
+        ],
+        "loop": false,
+        "selectOne": false
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_Result_20 [UI_HUD_ActiveRoll_Context=1160234136] {m}.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_HUD_DiceRoll_Result_1": {
+      "tree": {
+        "kind": "sound",
+        "id": "355159110"
+      },
+      "sourceEvent": "UI_HUD_DiceRoll_Result_1 [UI_HUD_ActiveRoll_Context=1160234136].txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_Shared_Hover": {
+      "tree": {
+        "kind": "random",
+        "children": [
+          {
+            "kind": "sound",
+            "id": "195065035"
+          },
+          {
+            "kind": "sound",
+            "id": "688169126"
+          },
+          {
+            "kind": "sound",
+            "id": "944001108"
+          },
+          {
+            "kind": "sound",
+            "id": "777190533"
+          },
+          {
+            "kind": "sound",
+            "id": "86194165"
+          },
+          {
+            "kind": "sound",
+            "id": "200963718"
+          }
+        ],
+        "loop": false,
+        "selectOne": false
+      },
+      "sourceEvent": "UI_Shared_Hover [1887204236=2685007074] {r}.txtp",
+      "sourceBank": "UI.bnk"
+    },
+    "UI_Shared_Click": {
+      "tree": {
+        "kind": "sound",
+        "id": "880982438"
+      },
+      "sourceEvent": "UI_Shared_Click [1887204236=2685007074].txtp",
+      "sourceBank": "UI.bnk"
+    }
+  },
+  "tracks": {
+    "382586858": {
+      "url": "382586858.wav",
+      "duration": 4.466666666666667,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "40cae89d4f6c6eb3b09ddd7ecfbdc90a5da2fa319f63d7bc92123cf688b4b249",
+      "sourceWemSha256": "ceeb650ad38254df641f8c1581dcdbd775169e1f72309ca06c60001ff8d8964a"
+    },
+    "717588137": {
+      "url": "717588137.wav",
+      "duration": 1.3462585034013606,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sha256": "78821ca596286bcc837e9f8fc3e150c22a072af103153407ec60f4144b1f3a7a",
+      "sourceWemSha256": "de55002b3e6c5982e05b9b80cd1afe88633b87046c2771862f615787343264d6"
+    },
+    "124811464": {
+      "url": "124811464.wav",
+      "duration": 1.5042176870748298,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sha256": "cd83a2bba7f55c9bc74bb66644e575af1b5c4352240d232b66615cd71438a058",
+      "sourceWemSha256": "0392adeefc5e2ac0ae5a2727ac8618ad8f49b95835d48ddb6a652b9f68505d82"
+    },
+    "919497788": {
+      "url": "919497788.wav",
+      "duration": 1.5042291666666667,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "2f24b1ee4cb70954d4723242806f50fa804c84f7ba0ad2ce461840772132f076",
+      "sourceWemSha256": "d5a2ad949145891516aca443224aef2307e2e5430aec49c1ecbb67b5a6b1b2db"
+    },
+    "651950374": {
+      "url": "651950374.wav",
+      "duration": 1.5042176870748298,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sha256": "f88a923585f2a5f436a4e8dffb4283433421c8754a068a0a6cb813b957be03a5",
+      "sourceWemSha256": "ddc09bff0b42660de16e2f1e3bf319528607978baa83fa8549c315e6bb6808fe"
+    },
+    "393654973": {
+      "url": "393654973.wav",
+      "duration": 2.5,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "4769becade7cc048362221e3462a3feb0e3ecfa9f56a9a176406c9708a68a235",
+      "sourceWemSha256": "6b5c169c65b343cfa78e3af4f2738f19d0b785309346d953732eebf68c5f3ef8"
+    },
+    "909704385": {
+      "url": "909704385.wav",
+      "duration": 6.4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "4f1c7d2272bf8354deb3e62f601462fa55b83a0af15dd35fb99bba0be8926049",
+      "sourceWemSha256": "445168b34f7c57b80c9af0fa471e93b1392d8e70c5dfdc1896d79407c99a4b05"
+    },
+    "687008453": {
+      "url": "687008453.wav",
+      "duration": 2.0,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "77d3ea2cd41100133ddcae7be8a2e44e680c0d5cc0b1e128ced77df613576c5c",
+      "sourceWemSha256": "7b158cc8b7e90e97c20d4c4ba5a9409c82321e5fa48d5b9131cb7c13401a3323"
+    },
+    "344639615": {
+      "url": "344639615.wav",
+      "duration": 2.0,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "26b40b8e5ced83589a464aba66d1151b299bd4ef228be958b7a6bfc59dce8684",
+      "sourceWemSha256": "f8fb4d9c8ebaa5fad22485e6d72b2c0613c84585edf0a2d770a45fea04a6b5c1"
+    },
+    "551104014": {
+      "url": "551104014.wav",
+      "duration": 1.9274791666666666,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "6c4b4979442e9132165db4442e0b31b4ce63c9fd339ea837c4a6c729f656f34e",
+      "sourceWemSha256": "a15e055fc856f43953e9c553881f587e536228533e7d4673a73546bdf342ce81"
+    },
+    "257990369": {
+      "url": "257990369.wav",
+      "duration": 2.497729166666667,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "b9a57cabd6911d075b55f4c814afc30861bc20b95915eee9e523afd322a06f81",
+      "sourceWemSha256": "144dbdbff7078a04e4aab5ad2ea4b5413b0ccd537f2aedbd6bf6f63ac3501d78"
+    },
+    "356862411": {
+      "url": "356862411.wav",
+      "duration": 2.5,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "be466ac0ccb228941320e25c2f11732ad10bb5c035123d92663c891be529c7d1",
+      "sourceWemSha256": "a7efb688f6e488257f98513c7b1566a9728a494361c680dc766ce1231c7225ca"
+    },
+    "51827166": {
+      "url": "51827166.wav",
+      "duration": 2.4976041666666666,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "c44a1b3e0ad576a5de3fbcbb39cf70f54cbbc776df15a2b9c0e2083bd92507c0",
+      "sourceWemSha256": "b9f99078d64ac4bf28dc4ec998754e674e26a09794e096066acd5d89f39c0320"
+    },
+    "8684437": {
+      "url": "8684437.wav",
+      "duration": 1.4938125,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "a55d4d273f447b6ddff6f871b72fa933191133deb7c530f6da4e37c30a0b4be3",
+      "sourceWemSha256": "1e3329909521d509ab5ff4785bc81f3cc617903364db7c00ec050bfc2ebd49f1"
+    },
+    "928649427": {
+      "url": "928649427.wav",
+      "duration": 1.5,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "3aada8a6178ac6796f9047028b1d5cb219a6cacfe6bb19ba479e2e6d10c9e60a",
+      "sourceWemSha256": "f5f8454b3babe92a72fb18f2f821e7f77ae80f31f07ef8698197d62467b22d8a"
+    },
+    "233630108": {
+      "url": "233630108.wav",
+      "duration": 1.4865416666666667,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "60c31d04f2564828cdcd052e641487f707305410160d03aee387c4d35df7b3bb",
+      "sourceWemSha256": "bf880415cfd3f12c6de8b7982941ec0de839e2d28aa747b8f6d7e24167ce4779"
+    },
+    "720452215": {
+      "url": "720452215.wav",
+      "duration": 1.7992708333333334,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "e7f32ed8bc66a8e833ff8597ab2eeb899944cbd0357c1f8087e179435d9a0c79",
+      "sourceWemSha256": "5e0ac865f994ed14510f7e442f60d7fbd20c5e4a7fdaddb00735c0dc39c488e5"
+    },
+    "584449721": {
+      "url": "584449721.wav",
+      "duration": 2.4933541666666668,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "429cc2b9a92a5d741c8b2f8dfb6ec0fefe50b65494e415498b635f1e4da9c0bd",
+      "sourceWemSha256": "6917705395582150378a290894a5e30609c437fe224cb747fd959c0bfc81a039"
+    },
+    "903881425": {
+      "url": "903881425.wav",
+      "duration": 2.5,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "b12be7493b742c6a852c77044a76521ed41b3492cd69891828d95969cec191cd",
+      "sourceWemSha256": "ace34f75d246122dda2aa3a10e7b4c72c7d069055ea2d2a323baae5255cfdfba"
+    },
+    "255644950": {
+      "url": "255644950.wav",
+      "duration": 2.5,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "8e07188a5211ed36340127b8aeff456eec1f75d4986d2fc06b2c8b33c9c6979d",
+      "sourceWemSha256": "7c483b423e856d3215c0d4b013b0b63a8a75f6b42f38081b9aa499271f5c6079"
+    },
+    "591281622": {
+      "url": "591281622.wav",
+      "duration": 2.5,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "bdb294d1cda4c9dc608be0bb88036925851c502eab03a7d73486739014e6b153",
+      "sourceWemSha256": "6610531152b77daa8e82950ba89a04df7787b3552efb3adacf036d28f2a131e3"
+    },
+    "441028196": {
+      "url": "441028196.wav",
+      "duration": 6.826270833333333,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "4b9ac23066f99d65885161da111ec4cd5b5575da040a4c01885e6d339185a26b",
+      "sourceWemSha256": "c1f9d9497b87c6a8fa43458569a58ebc3cda16d904ba59a02f9d1d50a9b35b34"
+    },
+    "355159110": {
+      "url": "355159110.wav",
+      "duration": 6.426125,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "badaea03d457e7c532d5540345ec80f3a5bed85e505b7d62502509ecd92361fd",
+      "sourceWemSha256": "4971e6c3f1442170c450323a2d411f1173c8220b96654935f7c7a23ddb4161c5"
+    },
+    "626493083": {
+      "url": "626493083.wav",
+      "duration": 0.052208333333333336,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "2df9d4a9038d9f675f37552e5842b921909a250a26222d04da78d4a31b5302fe",
+      "sourceWemSha256": "b7feddbc2a3492c4fdcff6e2c63dd36b71f505e74b4fd720e3a02381468c02a8"
+    },
+    "195065035": {
+      "url": "195065035.wav",
+      "duration": 1.4621666666666666,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "768d1ef0e7fa291a899d3d067ea120ad479ed410733ac206ab468d0eaab583e2",
+      "sourceWemSha256": "db1e65bc55c56bede8bb2cbd8fa51361a8a4ffe37f6b2a13bf6c70f0e38ca45f"
+    },
+    "688169126": {
+      "url": "688169126.wav",
+      "duration": 1.2435416666666668,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "3f36808e80fa66f79872e689c3506ed61d950b3b3312c43bf59f9f6f8897e98d",
+      "sourceWemSha256": "25cd3275f410d6f5a92697623888f307510171f9c470eddc2b3106c7b7caa41a"
+    },
+    "944001108": {
+      "url": "944001108.wav",
+      "duration": 1.378125,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "a5ab2723f1beedaebd89d79fde2a73508b966fb2fa0f8a0ccf971cd566399c98",
+      "sourceWemSha256": "970e15ed084746bc81081d5d3f18d563b9d057a5adc3591d6d2ac865cdd826b4"
+    },
+    "777190533": {
+      "url": "777190533.wav",
+      "duration": 1.464375,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "1d0b9f18bb76ddc54e9ef05ef72657e162119a1c06a9acf627954f516d0ccbfe",
+      "sourceWemSha256": "b6a4aed0a1f9a727958ce0ddfb8386d688814f33e834436b592c5db9bb337c4f"
+    },
+    "86194165": {
+      "url": "86194165.wav",
+      "duration": 1.6564583333333334,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "9b026bae725d8a722e27a1a2f31efafaea5236cf6e110f589567b28eb2c13015",
+      "sourceWemSha256": "2442efadcf3f6b36e226ba914842a1b482c391e08f16e20fe9beef352f5ad403"
+    },
+    "200963718": {
+      "url": "200963718.wav",
+      "duration": 1.5354791666666667,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "6623f00734453a6e884378af93b09677110c52772fe7b4811ba923d4b451d3aa",
+      "sourceWemSha256": "46f663e90a52c6e28e98d5797740190957d0e15f5a60b902a611c8d90f01b510"
+    },
+    "1041275594": {
+      "url": "1041275594.wav",
+      "duration": 0.170875,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "754cab8cf21ea96ea6cdb6496dba5034e62503271cf040b93200a51f5abb8d23",
+      "sourceWemSha256": "b18f982bb53242f094c1ffabb23924d88b7462205a01347ad7ced5d9592aca79"
+    },
+    "880982438": {
+      "url": "880982438.wav",
+      "duration": 2.3786666666666667,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "6dad53571ad81ae93b955f010f747d32d8f106f2ecab214034802768d02c55fd",
+      "sourceWemSha256": "3f1e02794a5468a1ee2663bcd03baffd0b26e5772955d357a476488da53e1846"
+    }
+  },
+  "initBankSha256": "ea2a66d2a174fc19e40cede9e398a0e84cb01eebf669adcd47fdd93f2f478c23"
+}

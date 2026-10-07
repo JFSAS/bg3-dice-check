@@ -1,0 +1,49 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:System="clr-namespace:System;assembly=mscorlib"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Keyboard.Fonts.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+	
+    <!--
+    For a consistancy sake, we no longer allow to add new layout fontsizes
+    You need to use the ones that were already provided by the designers, see confluence
+    -->
+    <System:Double x:Key="TinyFontSize">22.0</System:Double>
+    <System:Double x:Key="MiniFontSize">24.0</System:Double>
+    <System:Double x:Key="SmallFontSize">28.0</System:Double>
+    <System:Double x:Key="SmallishFontSize">30.0</System:Double>
+    <System:Double x:Key="MediumFontSize">32.0</System:Double>
+    <System:Double x:Key="DefaultFontSize">36.0</System:Double>
+    <System:Double x:Key="IntermediateFontSize">38.0</System:Double>
+    <System:Double x:Key="LargeFontSize">40.0</System:Double>
+    <System:Double x:Key="BigFontSize">44.0</System:Double>
+    <System:Double x:Key="TitleFontSize">48.0</System:Double>
+    <System:Double x:Key="HugeFontSize">52.0</System:Double>
+    <System:Double x:Key="MassiveFontSize">56.0</System:Double>
+    <System:Double x:Key="GiganticFontSize">70.0</System:Double>
+    <System:Double x:Key="HumongousFontSize">80.0</System:Double>
+
+    <!--LineHeights , these are bound to the font sizes, make sure to update these accordingly if you change the fontsizes-->
+    <System:Double x:Key="TooltipTitleLineHeight">50</System:Double>
+
+    <System:Double x:Key="SmallFontSizeLineHeight">32</System:Double>
+    <System:Double x:Key="MediumFontSizeLineHeight">36</System:Double>
+    <System:Double x:Key="LargeFontSizeLineHeight">46</System:Double>
+    <System:Double x:Key="DefaultFontSizeLineHeight">44</System:Double>
+    <System:Double x:Key="IntermediateFontSizeLineHeight">54</System:Double>
+    <System:Double x:Key="TitleFontSizeLineHeight">55</System:Double>
+    <System:Double x:Key="HumongousFontSizeLineHeight">88</System:Double>
+
+    <Style x:Key="baseStyle">
+        <Setter Property="Control.FontSize" Value="{StaticResource DefaultFontSize}" />
+        <Setter Property="Control.FontFamily" Value="{StaticResource DefaultFont}" />
+        <Setter Property="Control.Foreground" Value="{StaticResource LS_baseTxtColor}"/>
+        <Setter Property="Control.HorizontalContentAlignment" Value="Stretch"/>
+        <Setter Property="Control.VerticalContentAlignment" Value="Stretch"/>
+        <Setter Property="FrameworkElement.FocusVisualStyle" Value="{x:Null}"/>
+    </Style>
+</ResourceDictionary>
